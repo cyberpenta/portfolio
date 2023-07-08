@@ -1,5 +1,8 @@
 /* Shared Design */
-
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -135,6 +138,8 @@ nav a {
 .about-info-container {
     display: flex;
     justify-content: space-evenly;
+    gap: 5px;
+    margin-top: 30px;
 }
 
 .about-inf {
@@ -194,6 +199,7 @@ main {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .resume-title {
@@ -251,14 +257,17 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 20px;
 }
 
 .footer-desc {
-    color: #474747;
+    color:#474747;
+    font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -274,13 +283,19 @@ footer {
 }
 
 
-.contact-form input,
+.contact-form input[type='text'],
+input[type='email'],
 textarea {
     display: block;
     margin-bottom: 24px;
     padding: 18px 35px;
     color: #757575;
     border-radius: 5px;
-    background:#FFF;
+    background: #FFF;
     border: 0;
+    width: 100%;
+}
+
+.social-links a {
+    margin-right: 20px;
 }
