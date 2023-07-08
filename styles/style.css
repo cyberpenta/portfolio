@@ -261,9 +261,26 @@ main {
     line-height: 28px;
 }
 
-footer{
+footer {
     display: flex;
-    background-color:#FFF8F3;
+    background-color: #FFF8F3;
     padding: 130px 230px;
     margin-top: 120px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+
+.contact-form input,
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:#FFF;
+    border: 0;
 }
