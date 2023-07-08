@@ -203,3 +203,42 @@ main {
     font-weight: 700;
     line-height: normal;
 }
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.resume-desc {
+    color:#757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
